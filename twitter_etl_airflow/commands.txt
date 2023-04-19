@@ -1,0 +1,13 @@
+These commands are used to add packages on ec2 where we have airflow on ubuntu
+==============================================================================
+
+sudo apt-get update
+sudo apt install python3-pip
+sudo pip install apache-airflow
+sudo pip install pandas 
+sudo pip install s3fs
+sudo pip install tweepy
+
+
+to run airflow: airflow standalone
+it will give -> Login with username: admin  password: C2hq8z6EuKMyHHPn 
